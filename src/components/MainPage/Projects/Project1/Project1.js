@@ -5,7 +5,7 @@ const Project1 = () => {
     <div class="first_project">
       <a href="first_project_page.html">
         <header class="first_proj_h2">
-          <h2>quiz app</h2>
+          <h2>Quiz App</h2>
         </header>
         <ul class="proj_icons first_proj">
           <li>
