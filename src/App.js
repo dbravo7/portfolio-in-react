@@ -1,15 +1,19 @@
 import React from 'react';
-import { Route } from 'react-router-dom'; 
+import { Route, Switch } from 'react-router-dom'; 
 
 import MainPage from './components/MainPage/MainPage';
-import ProjectPage from './components/ProjectPage/ProjectPage'; 
+import QuizApp from './components/ProjectPage1/ProjectPage1'; 
+import DuoTranslate from './components/ProjectPage2/ProjectPage2'; 
+import About from './components/AboutPage/AboutPage';
 import './App.css';
 
 const App = props => {
   return (
     <Switch>
-      <MainPage />
-      <ProjectPage /> 
+      <Route exact path="/" component={MainPage} />
+      <Route path="/about" component={About} /> 
+      <Route path="/quizApp" component={QuizApp} /> 
+      <Route path="/duoTranslate" component={DuoTranslate} /> 
     </Switch> 
   );
 }

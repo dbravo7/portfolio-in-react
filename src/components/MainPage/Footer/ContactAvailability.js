@@ -1,9 +1,10 @@
 import React from 'react'; 
+import { Link } from 'react-router-dom'; 
 
 const ContactAvailability = () => {
   return (
     <section class="contact_info">
-      <a name="contact"></a>
+      <Link name="contact"></Link>
       <header class="email">
         <i class='far fa-envelope'></i>
         <h3 class="email_h3">Email</h3>

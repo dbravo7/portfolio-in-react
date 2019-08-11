@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 const Project2 = () => {
   return (
     <div class="second_project">
-      <a href="second_project_page.html">
+      <Link to="/duoTranslate">
         <header class="second_proj_h2">
           <h2>DuoTranslate</h2>
         </header>
@@ -18,7 +19,7 @@ const Project2 = () => {
             <i class='fab fa-js'></i>
           </li>
         </ul>
-      </a>
+      </Link>
     </div>
   );
 };
