@@ -1,0 +1,88 @@
+nav { 
+  display: flex; 
+  justify-content: flex-end; 
+  background-color: transparent; 
+}
+
+.footer_icons, .menu, .dropbtn {
+  cursor: pointer; 
+}
+
+.dropbtn { 
+  float: right; 
+  margin-right: 10px; 
+  margin-top: 3px; 
+  border-radius: 3px; 
+  background: transparent; 
+  border: none;
+}
+
+.bars {
+  height: 3px;
+  width: 18px;
+  border-radius: 5px; 
+  background-color: whitesmoke;
+  margin: 3px 0px;
+}
+
+.menu, .submenu {
+  background: linear-gradient(
+    rgba(88, 136, 166, 0.9),
+    rgba(88, 136, 166, 0.9));
+}
+
+.menu {
+  position: absolute; 
+  right: 4%; 
+  width: 30%; 
+  top: 3.5%; 
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin: 0;
+  padding: 0; 
+  list-style: none; 
+}
+
+.menu ul li {
+  padding: 15px 15px; 
+  margin-right: 0px;
+  margin-left: 0px; 
+}
+
+.menu ul li a, .submenu li a {
+  text-decoration: none; 
+  color: whitesmoke;
+  cursor: pointer; 
+}
+
+.menu ul li:hover, .dropdown_submenu .submenu li:hover {
+  background: rgb(138, 155, 166);
+}
+
+.hide {
+  display: none; 
+}
+
+.dropdown_submenu {
+  position: relative;  
+}
+
+.submenu {
+  visibility: hidden; 
+  position: absolute; 
+  top: 0; 
+  right: 100%;  
+  width: 130%; 
+}
+
+.dropdown_submenu:hover .submenu {
+  visibility: visible; 
+}
+
+.submenu li a { 
+ display: inline-block; 
+}

@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box; 
+}
+
+html, body { 
+  padding: 0;
+  margin: 0; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Domine', serif;
+}
+
+.wrapper {
+    background: linear-gradient(
+    rgba(88, 136, 166, 0.48),
+    rgba(88, 136, 166, 0.48)
+  ),
+  url("/images/backdrop1.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}

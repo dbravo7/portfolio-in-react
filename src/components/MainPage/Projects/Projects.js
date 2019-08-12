@@ -1,8 +1,8 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom'; 
 
-import Project1 from './Project1/Project1'; 
-import Project2 from './Project2/Project2'; 
+import QuizApp from './QuizApp/QuizApp'; 
+import DuoTranslate from './DuoTrasnslate/DuoTranslate'; 
 
 const Projects = () => {
 
@@ -10,8 +10,8 @@ const Projects = () => {
     <main role="main">
       <Link name="projects"></Link>
       <div className="projects_main">
-       <Project1 />
-       <Project2 /> 
+       <QuizApp />
+       <DuoTranslate /> 
       </div>
     </main>
   )

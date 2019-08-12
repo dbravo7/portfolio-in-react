@@ -1,22 +1,23 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom'; 
 
+import classes from './Navigation.module.css'; 
+
 const Navigation = (props) => {
   return (
-    // <div className="wrapper">
     <React.Fragment>
       <nav role="navigation">
-        <button type="button" class="dropbtn">
-          <div className="bars"></div>
-          <div className="bars"></div>
-          <div className="bars"></div>
+        <button type="button" className={classes.dropbtn}>
+          <div className={classes.bars}></div>
+          <div className={classes.bars}></div>
+          <div className={classes.bars}></div>
         </button>
-        <div className="menu hide">
+        <div className={classes.menu + classes.hide}>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li className="dropdown_submenu">
-              <a href="#projects" className="submenu_head">Projects</a>
+              <Link to="/#projects" className="submenu_head">Projects</Link>
               <ul className="submenu">
                 <li>
                   <Link to="/quizApp">Quiz App</Link>
@@ -36,7 +37,6 @@ const Navigation = (props) => {
         <p className="white">Problem solver making programs functional and code readable.</p>
       </header>
     </React.Fragment>
-    //</div> 
   );
 }; 
 

@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'; 
 import { Link } from 'react-router-dom'; 
 
-const Project2 = () => {
+const QuizApp = () => {
   return (
-    <div class="second_project">
-      <Link to="/duoTranslate">
-        <header class="second_proj_h2">
-          <h2>DuoTranslate</h2>
+    <div class="first_project">
+      <Link to="/quizApp">
+        <header class="first_proj_h2">
+          <h2>Quiz App</h2>
         </header>
-        <ul class="proj_icons second_proj">
+        <ul class="proj_icons first_proj">
           <li>
             <i class='fab fa-html5'></i>
           </li>
@@ -24,4 +24,4 @@ const Project2 = () => {
   );
 };
 
-export default Project2; 
+export default QuizApp;

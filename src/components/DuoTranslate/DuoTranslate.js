@@ -3,7 +3,7 @@ import React from 'react';
 import Navigation from '../MainPage/Navigation/Navigation';
 import Footer from '../MainPage/Footer/Footer';  
 
-const ProjectPage2 = () => {
+const DuoTranslate = () => {
   return (
     <React.Fragment>
       <div class="second_proj_wrapper">
@@ -66,4 +66,4 @@ const ProjectPage2 = () => {
   );
 }; 
 
-export default ProjectPage2; 
+export default DuoTranslate; 

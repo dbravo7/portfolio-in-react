@@ -5,7 +5,7 @@ import Footer from '../MainPage/Footer/Footer';
 
 
 
-const ProjectPage1 = () => {
+const QuizApp = () => {
   return (
     <React.Fragment>
       <div class="first_proj_wrapper">
@@ -62,4 +62,4 @@ const ProjectPage1 = () => {
   );
 };
 
-export default ProjectPage1; 
+export default QuizApp; 
